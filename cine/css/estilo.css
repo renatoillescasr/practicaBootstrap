@@ -1,0 +1,48 @@
+{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #070C08;
+}
+.logo{
+  max-height: 150px;
+  display: block;
+  margin: auto;
+}
+h2{
+  font-size: 1.5em;
+  color: #21B335;
+  margin-top: 5px;
+}
+h3{
+  font-size: 1em;
+  font-weight: bold;
+  color: #3A4FD1;
+  margin-top: 5px;
+}
+img{
+  max-height: 300px;
+}
+header,section, footer{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9fcf7+0,f5f9f0+100;L+Green+3D */
+  background: rgb(249,252,247); /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(249,252,247,1) 0%, rgba(245,249,240,1) 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(249,252,247,1) 0%,rgba(245,249,240,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, rgba(249,252,247,1) 0%,rgba(245,249,240,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf7', endColorstr='#f5f9f0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+footer{
+  padding: 15px;
+}
+/*Disenos de Pantalla*/
+@media only screen and (max-width:991px) {
+  .list-inline li::after { content: ", "; }
+  .list-inline li:last-child:after { content: "."; }
+  .flex-container{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+}
